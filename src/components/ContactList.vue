@@ -7,6 +7,7 @@ export default {
   emits: ["update:activeIndex"],
   methods: {
     updateActiveIndex(index) {
+      // console.log("Hello");
       this.$emit("update:activeIndex", index);
     },
   },

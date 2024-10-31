@@ -4,8 +4,6 @@ export default {
     contact: { type: Object, required: true },
   },
 };
-
-// console.log(this.contact);
 </script>
 <template>
   <div>
